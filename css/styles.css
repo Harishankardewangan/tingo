@@ -1,0 +1,187 @@
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container {
+  padding: 10rem 30rem 17rem 30rem;
+}
+
+/* .container-fluid{
+    padding: 10rem 30rem 10rem 30rem;
+} */
+
+h1 {
+  font-family: "Tilt Warp", cursive;
+  color: white;
+  font-size: 3.5rem;
+  line-height: 15;
+
+  padding-top: 3%;
+}
+
+h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat-Bold";
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+body {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+/* Navigation bar */
+
+.navbar {
+  padding-top: 1%;
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    font-family: "Montserrat";
+}
+
+/* Download Buttons */
+
+.Download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+
+.iphone-image {
+  rotate: 30deg;
+  width: 30%;
+  right: 25%;
+  padding-top: 3%;
+  position: absolute;
+}
+
+/* Feature seaction  */
+
+#features {
+  padding: 10% 25%;
+  background-color: white;
+  /* z-index: 1; */
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 1rem;
+}
+
+.icons-md {
+  color: #ef8172;
+  margin: 0 0 5% 0;
+}
+
+.icons-md:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials section */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonials-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+
+  margin: 20px 20px 10px 20px;
+}
+
+.carousel-item {
+  padding: 7% 15% 7% 15%;
+}
+
+/* Pricing section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+  background-color: white;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* <!-- Call to Action --> */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  padding: 1rem 0 1rem 0;
+}
+
+/* footer section  */
+.h3-footer {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 2rem 8rem 0 8rem;
+}
+
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+.social-link {
+  padding: 1% 46%;
+}
+
+/* media screen */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone-image {
+    position: static;
+    rotate: 0deg;
+  }
+
+  .container {
+    padding-bottom: 0.3%;
+  }
+}
